@@ -1,0 +1,50 @@
+.contact
+{
+    width:100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left:90px;
+    padding-right: 90px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.offer
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.shortletter
+{
+    position: relative;
+    width:90%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.shortletter span
+{
+    position:relative;
+    width:60%;
+    height:40px;
+}
+.shortletter input[type="mail"]{
+    width: 160px;
+    height:35px;
+    border-radius: 10px;
+}
+.receipt
+{
+    width:100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    color:#fff;
+    font-size:17px;
+    font-weight: 600;
+}
