@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <title>Innotechwave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="menu-box">
+        <div class="logo"></div>
+        <ul class="menu-container">
+            <li>
+                <a href="#">Acceuil</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">Qui sommes-nous ?</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">Notre équipe</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">Nos projets</a>
+                <span></span>
+            </li>
+            <li class="contact">
+                <a href="#">Contactez-nous</a>
+                <span></span>
+            </li>
+        </ul>
+    </nav>
+    <div class="box">
+        <div class="join-us">
+            <span class="borderline"></span>
+            <form action="url_de_traitement.php" method="POST" id="contact">
+                <h3>Votre requête</h3>
+                <label for="email">
+                    <span>Adresse e-mail </span>
+                    <input type="email" id="email" name="email" required />
+                    <i></i>
+                </label>
+                
+                <label for="name">
+                    <span>Nom </span>
+                    <input type="text" id="name" name="name" required />
+                    <i></i>
+                </label>
+
+                <label for="requete"><span>Votre requête </span>
+                    <textarea id="requete" name="requete" rows="5" required></textarea>
+                </label>
+                <input class="submit" type="submit" value="Envoyer" />
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="content">
+            <div class="page-conditions">
+                <img src="" alt="innotechwave logo" />
+                <span>Conditions générales d'utilisation</span>
+                <span>F.A.Q</span>
+                <span>Règles et politique de confidentialité</span>
+            </div>
+            <span class="vertical-line">&nbsp;</span>
+            <div class="noservice">
+                <h3>Nos services</h3>
+                <div class="list">
+                    <span>Nos secteurs d'intervention</span>
+                    <span>Nos compétences</span>
+                </div>
+            </div>
+            <span class="vertical-line">&nbsp;</span>
+            <div class="projets">
+                <h3>Nos projets</h3>
+                <div class="list">
+                    <span>Nos projets récents</span>
+                    <span>Actualité</span>
+                </div>
+            </div>
+            <span class="vertical-line">&nbsp;</span>
+            <div class="join">
+                <h3>Contactez-nous</h3>
+                <div class="list">
+                    <span>contact.innotechwave@gmail.com</span>
+                    <span>+229 53893625</span>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </div>
+        <div class="copyright">
+            <span>Copyright ©2023 innotechwave.com</span>
+        </div>
+    </footer>
+  </body>
+</html>

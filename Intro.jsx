@@ -12,7 +12,8 @@ const Intro=() =>
                 <button className="subscribe">S'abonner</button>
             </div>
             <div className="goal">
-                <div className="image"></div>
+                <div className="image">
+                </div>
                 <div className="description">
                     <p>Notre but est de devenir une startup  reconnue et proposant des solutions numériques innovantes dans les domaines essentiels de la vie économique en Afrique.</p>
                 </div>

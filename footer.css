@@ -68,6 +68,11 @@
     width: 100%;
     height: 95px;
 }
+.social-media i
+{
+    width: 15px;
+    height:15px;
+}
 .copyright
 {
     position: relative;

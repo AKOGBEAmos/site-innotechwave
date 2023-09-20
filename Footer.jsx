@@ -37,6 +37,9 @@ const Footer=() =>
                 </div>
             </div>
             <div className="social-media">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
 
             </div>
             <div className="copyright">

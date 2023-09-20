@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <title>Innotechwave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="team.css">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav class="menu-box">
+      <div class="logo"></div>
+      <ul class="menu-container">
+          <li class="acceuil">
+              <a href="#">Acceuil</a>
+              <span></span>
+          </li>
+          <li class="who">
+              <a href="#">Qui sommes-nous ?</a>
+              <span></span>
+          </li>
+          <li class="team">
+              <a href="#">Notre équipe</a>
+              <span></span>
+          </li>
+          <li class="project">
+              <a href="#">Nos projets</a>
+              <span></span>
+          </li>
+          <li class="joining">
+              <a href="#">Contactez-nous</a>
+              <span></span>
+          </li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <div class="wave">
+          <h2>L'esprit d'équipe est quelque chose que nous chérissons à  </h2>
+          <h3>INNOTECHWAVE</h3>
+      </div>
+      <button class="subscribe">Suivez nous sur nos réseaux sociaux</button>
+    </div>
+    <div class="Team">
+      <h3>Our Team</h3>
+      <div class="members"> 
+           <div class="member">
+               <img src='../Images/homme.png' alt="icône membre" />
+               <span class="name">Amos AKOGBE</span>
+           </div> 
+           <div class="member">
+               <img src='../Images/femme.png' alt="icône membre" />
+               <span class="name">Blandine ALLOWANOU</span>
+           </div> 
+           <div class="member">
+               <img src='../Images/homme.png' alt="icône membre" />
+               <span class="name">Marcelin KPANGBANOU</span>
+           </div> 
+           <div class="member">
+               <img src='../Images/femme.png' alt="icône membre" />
+               <span class="name">Harmonie AWONON</span>
+           </div> 
+           <div class="member">
+               <img src='../Images/homme.png' alt="icône membre" />
+               <span class="name">Urbain ESSEHO</span>
+           </div> 
+           <div class="member">
+               <img src='../Images/homme.png' alt="icône membre" />
+               <span class="name">VEGLO Gabin</span>
+           </div> 
+      </div>
+    </div>
+    <div class="field">
+      <h3>Nos domaines d'intervention</h3>
+      <div class="field-description">
+          <div class="agriculture">
+            <div class="overlay-card"></div>
+            <div class="description">
+                <h3>Agriculture</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Sit ex id fugit quibusdam 
+                    aliquid ipsa, iusto deserunt ab laboriosam 
+                    tempora dolor nemo quod! Autem quod quae 
+                    perferendis, beatae voluptatem ducimus?
+                </p>
+                <button class="close">Fermer</button>
+            </div>
+          </div>
+          <div class="field_a">
+            <img src='../Images/agro.png' alt="Une plante" />  
+            <button class='agro'>Agriculture</button>
+          </div>
+          <div class="field_a">
+              <img src='../Images/alimentaire.png' alt="Aliments" />  
+              <button class="food">Agro-alimentaire</button>
+          </div>
+          <div class="field_a">
+              <img src='../Images/education.png' alt="élève" />  
+              <button class="education">Education</button>
+          </div>
+          <div class="field_a">
+              <img src='../Images/health.png' alt="doctor" />  
+              <button clas="'health">Santé</button>
+            </div>
+          <div class="field_a">
+              <img src='../Images/commerce.png' alt="business" />  
+              <button class="business">Commerce</button>
+          </div>
+          <div class="field_a">
+              <img src='../Images/économie.png' alt="economy" />  
+              <button class="economy">Economie</button>
+          </div>
+          <!--Régler le problème de popup-->
+      </div>
+      <span class="line">&nbsp;</span>
+    </div>
+    <footer class="footer">
+      <div class="content">
+          <div class="page-conditions">
+              <img src="" alt="innotechwave logo" />
+              <span>Conditions générales d'utilisation</span>
+              <span>F.A.Q</span>
+              <span>Règles et politique de confidentialité</span>
+          </div>
+          <span class="vertical-line">&nbsp;</span>
+          <div class="noservice">
+              <h3>Nos services</h3>
+              <div class="list">
+                  <span>Nos secteurs d'intervention</span>
+                  <span>Nos compétences</span>
+              </div>
+          </div>
+          <span class="vertical-line">&nbsp;</span>
+          <div class="projets">
+              <h3>Nos projets</h3>
+              <div class="list">
+                  <span>Nos projets récents</span>
+                  <span>Actualité</span>
+              </div>
+          </div>
+          <span class="vertical-line">&nbsp;</span>
+          <div class="join">
+              <h3>Contactez-nous</h3>
+              <div class="list">
+                  <span>contact.innotechwave@gmail.com</span>
+                  <span>+229 53893625</span>
+              </div>
+          </div>
+      </div>
+      <div class="social-media">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </div>
+      <div class="copyright">
+          <span>Copyright ©2023 innotechwave.com</span>
+      </div>
+    </footer>
+    <script type="text/javascript">
+        const agriculture=document.querySelector(".agriculture");
+        const trigger=document.querySelectorAll(".agro");
+
+        trigger.forEach(trigger=> trigger.addEventListener("click", toggledescription))
+
+        function toggledescription()
+        {
+            agriculture.classList.toggle("active")
+        }
+    </script>
+  </body>
+</html>
